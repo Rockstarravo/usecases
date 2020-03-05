@@ -1,3 +1,9 @@
+
+@Author : Ravindra sai Konna
+konna.p.sai@happiestminds.com
+
+
+
 *** Requirements
 
 Steps to achieve the springboot interaction with secretsmanager
@@ -14,3 +20,6 @@ Steps to achieve the springboot interaction with secretsmanager
 5. Modify the database name and port in the application.properties
 
 6. Optional (leverage the redis container for session and cache)
+
+
+                        Happy coding :) :)
