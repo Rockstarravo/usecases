@@ -53,4 +53,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
   
 4. SAM deploy -guided  
 
-  # when developers done with development then can push into the cloud bu firing the above command
+  # when developers done with development then push into the cloud by firing up the above command
+  # follow the on screen steps to achieve the setup
