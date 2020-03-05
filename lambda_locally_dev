@@ -1,0 +1,55 @@
+----> 
+
+Developing Lambda Locally 
+SAM CLI (AWS introduced)
+Docker
+<------
+
+
+***** requirements 
+
+Install Sam cli 
+
+Windows 
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-windows.html
+
+Linux
+https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html
+
+
+Install Docker 
+
+Windows 
+https://docs.docker.com/docker-for-windows/install/ 
+
+Linux
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
+
+
+
+1. SAM INIT( Intiate the setup)
+
+   # follow the steps in console
+   # default name is sam-app
+   # cd sam-app/
+
+
+2. SAM BUILD (Build the Code and generate the artifacts)
+   
+   # it will find out template.yml file which having the resources
+   # by default hello-world folder contains the src files
+   # we can change the resources based upon the requirement that you have (ex: python 3.7 -> python 3.8)
+  
+  
+3. SAM local start-api (fire up this command to start local restapi)
+
+   # for the first time it will take (10-15 min) time to execute because of installing docker image based on opted stack
+   # docker image called lambci/lambda (docker images) get pulled 
+   # by default api mapped to 0.0.0.0:3000
+   
+  
+  
+4. SAM deploy -guided  
+
+  # when developers done with development then can push into the cloud bu firing the above command
+   
