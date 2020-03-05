@@ -3,7 +3,7 @@
 Steps to achieve the springboot interaction with secretsmanager
 
 1. AWS cli (Install & configure with IAM Access key & Secret key)
-   # making iam has policy to access with Secret manager
+   # Make sure it contains iam policy to access with Secret manager
    
 2. AWS console (setup the keys in secret manager service ex: username : root, password : password )
 
