@@ -4,6 +4,9 @@ konna.p.sai@happiestminds.com
 
 
 
+# Above code for Springboot Rest-Api which inserts the input param in mysql db
+
+
 *** Requirements
 
 Steps to achieve the springboot interaction with secretsmanager
