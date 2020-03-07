@@ -38,16 +38,24 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 2. SAM BUILD (Build the Code and generate the artifacts)
    
+   # sam uses local machine to execute the function 
    # it will find out template.yml file which having the resources
+   # template.yml also contains the memory, runtime, handler, path properties, CodeUri (path of the src)
    # by default hello-world folder contains the src files
    # we can change the resources based upon the requirement that you have (ex: python 3.7 -> python 3.8)
   
   
 3. SAM local start-api (fire up this command to start local restapi)
 
+   # simply a container will come into the picture to act as a RESTAPI (end point) ex: localhost:3000/hello
    # for the first time it will take (10-15 min) time to execute because of installing docker image based on opted stack
    # docker image called lambci/lambda (docker images) get pulled 
    # by default api mapped to 0.0.0.0:3000
+   
+   
+   
+                              # LocalMachine --> DockerImage Acts API Gateway
+   
    
   
   
